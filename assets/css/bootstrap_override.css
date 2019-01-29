@@ -2,13 +2,12 @@
  margin-left: 5px;
 }
 
+body {
+    background-color:#e9ecef;
+ }
 
 footer{
     text-align: center;
     color:white;
     background-color:#333a41;
-}
-
-label{
-    text-align: center;
 }
