@@ -19,3 +19,9 @@ footer{
 .test-2{
     background-color:blue;
 }
+
+.card-img-control{
+    max-height:231px;
+     max-width:100%; 
+     overflow:hidden;
+}
