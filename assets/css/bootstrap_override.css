@@ -25,3 +25,81 @@ footer{
      max-width:100%; 
      overflow:hidden;
 }
+
+.card-img-top {
+    width: 100%;
+    height: 60vw;
+    object-fit: cover;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    /* body{
+        background-color: red;
+    } */
+    .card-img-top {
+        width: 100%;
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    .zoom{
+        transition: transform .2s;
+    }
+    .zoom:hover {
+        transform: scale(1.0); /*(150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        /* z-index: 2; */
+        border: solid 2px yellow;
+      }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* body{
+        background-color: orange;
+    }  */
+    .card-img-top {
+        width: 100%;
+        height: 45vw;
+        object-fit: cover;
+    }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* body{
+        background-color: yellow;
+    } */
+    .card-img-top {
+        width: 100%;
+        height: 17vw;
+        object-fit: cover;
+    }
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* body{
+        background-color: blue;
+    }  */
+
+    .card-img-top {
+       /* max-width: 134px;
+        max-height:288px; */
+        width:90%;
+         height: 9vw;
+        object-fit: cover; 
+    }
+
+    .card{
+        max-width:300px;
+        max-height:288px;
+    }
+    
+
+      
+
+    
+}
