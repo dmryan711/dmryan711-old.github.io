@@ -13,16 +13,70 @@ footer{
     background-color:#333a41;
 }
 
-.test{
-    background-color:red;
-}
-
-.test-2{
-    background-color:blue;
-}
 
 .card-img-control{
     max-height:231px;
      max-width:100%; 
      overflow:hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 60vw;
+    object-fit: cover;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+    .card-img-top {
+        width: 100%;
+        height: 50vw;
+        object-fit: cover;
+    }  
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    .card-img-top {
+        width: 100%;
+        height: 45vw;
+        object-fit: cover;
+    }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+    .card-img-top {
+        width: 100%;
+        height: 17vw;
+        object-fit: cover;
+    }
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+    .card-img-top {
+
+        width:90%;
+         height: 9vw;
+        object-fit: cover; 
+    }
+
+    .card{
+        max-width:300px;
+        max-height:350px;
+    }
+
+  
+    
+
+      
+
+    
 }
